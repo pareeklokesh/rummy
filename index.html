@@ -65,6 +65,13 @@
     </div>
   </div>
   <div class="container-fluid full-page" style="padding-right: 0;">
+
+    <span class="mobilemenu">
+      <p><span></span><span></span><span></span></p>
+      <p><span></span><span></span><span></span></p>
+      <p><span></span><span></span><span></span></p>
+    </span>
+
     <div id="home" class="home">
     <div class="container">
       <h2 class="bannertitle text-center">Rummy Aura Game</h2>
@@ -213,6 +220,14 @@
 <script>
   $(".search_icon").click(function(){
     $(".search-popup").toggleClass("search-popup-show");
+  });
+</script>
+
+
+<script>
+  $(".mobilemenu").click(function(){
+    $(".leftsidbar").toggleClass("leftsidbar-open");
+    $(this).toggleClass("mobilemenu-open");
   });
 </script>
 
