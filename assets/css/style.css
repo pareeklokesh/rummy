@@ -332,6 +332,14 @@ width: 100%;
 .bannerbtn:hover {
   color: #0e0e0e;
 }
+.gamecontent {
+  transition: all .4s linear;
+  cursor: pointer;
+}
+.gamecontent:hover {
+  background: #faca03;
+}
+
 
 @media (max-width: 991px) {
   .leftsidbar {
