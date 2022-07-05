@@ -107,6 +107,8 @@ body {
   display: flex;
 align-items: center;
 justify-content: center;
+background-attachment: fixed;
+background-position: top center;
 }
 .bannerbtn {
   color: #fff;
@@ -341,5 +343,13 @@ transform: translateY(0);
   background-position: top left;
   background-attachment: fixed;
 }
+.game .col-md-8 .row:last-child .col-md-6:first-child {
+  order: 2;
+}
+.limit {
+  margin-bottom: 30px;
+  display: block;
+}
+
 }
 
