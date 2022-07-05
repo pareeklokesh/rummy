@@ -1,0 +1,278 @@
+.leftsidbar {
+  width: 300px;
+  overflow: hidden;
+  background-color: #0e0e0e;
+  box-shadow: 0 0 15px 5px rgba(0,0,0,.5);
+  padding: 40px 0;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+}
+.logo img {
+  width: 100px;
+}
+
+.search_icon::before, .search_icon::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 38%;
+  transform: rotate(-45deg);
+}
+.search_icon::before {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.searchicon li a span{
+  width: 20px;
+  height: 32px;
+line-height: 32px;
+vertical-align: middle;
+display: inline-block;
+}
+.search_icon::after {
+  width: 0px;
+  height: 6px;
+  border-right: 2px solid #fff;
+  margin-left: 12px;
+  margin-top: 9px;
+}
+.searchicon {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.searchicon li a span svg {
+  width: 16px;
+  color: #fff;
+}
+.searchicon li {
+  min-width: 50px;
+}
+.searchicon {
+  margin-top: 20px;
+}
+body {
+  font-family: 'Marcellus SC', serif;
+}
+.navbar-link li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: block;
+  transition: all .4s linear;
+}
+.navbar-link {
+  padding: 0;
+  list-style: none;
+  margin-top: 40px;
+}
+.navbar-link li a:hover {
+  color: #dba403;
+}
+.copyright-text {
+  color: #999;
+  padding: 30px;
+    padding-bottom: 40px;
+  padding-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.7;
+}
+.full-page {
+  background: url('../img/bg.png');
+  background-position: center;
+  background-size: cover;
+  padding-left: 300px;
+  background-attachment: fixed;
+}
+.bannertitle {
+  color: #fff;
+  font-size: 45px;
+}
+.home {
+  background: url('../img/ludo.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.bannerbtn {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 6px 20px;
+  box-shadow: none !important;
+border-radius: 2px;
+}
+.blackbg {
+  background: #0e0e0e;
+}
+.p-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.section-title {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.limit {
+  color: #999;
+}
+.gamecontent .w-100 {
+ padding: 60px;
+}
+.gamecontent h4 {
+  color: #fff;
+  margin: 40px 0;
+  font-weight: 800;
+}
+.gamecontent p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.blackbg2 {
+  background: #181818;
+}
+.gamecontent img {
+  width: 70px;
+}
+.game {
+  padding: 80px 0;
+}
+.testimonial {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 80px 0;
+}
+.testimonial * {
+  color: #fff;
+}
+.testimonial .owl-dots button {
+  background: #cacaca !important;
+  width: 60px !important;
+  height: 2px;
+  display: inline-block;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+.testimonial .owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.testimonial .owl-dots button.active {
+  background: #fff !important;
+  opacity: 1;
+}
+.testimonial strong {
+  font-weight: 400;
+  font-size: 18px;
+}
+.testimonial strong span {
+  display: block;
+  font-size: 14px;
+}
+.footer {
+  padding: 40px 0;
+}
+.footer img {
+  margin-bottom: 30px;
+}
+.footer p {
+  color: #999;
+}
+.footer ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  color: #fff;
+}
+.footer ul a {
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.search-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 300px;
+  height: 100vh;
+  width: 100%;
+  transform: translateY(-300%);
+transition: all .4s linear;
+}
+.search-popup .w-100 {
+  padding: 20px;
+}
+.search-popup input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  color: #999;
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 45px;
+  border-bottom: 1px solid #999;
+  text-transform: capitalize;
+  transition: all .4s linear;
+  padding-left: 60px;
+}
+.search-popup input::placeholder {
+  text-transform: capitalize !important;
+}
+.search-popup input:focus {
+  border-bottom-color: #fff;
+}
+.search-popup span {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+}
+.search-popup span::before, .search-popup span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  transform: rotate(-45deg);
+}
+.search-popup span::before {
+width: 30px;
+height: 30px;
+border: 2px solid #fff;
+border-radius: 50%;
+}
+.search-popup span::after {
+  width: 0;
+height: 14px;
+border-right: 4px solid #fff;
+margin-left: 26px;
+top: 25px;
+}
+.search-popup span {
+  position: absolute;
+  top: 25%;
+}
+.search-popup-show {
+transform: translateY(0);
+}
+
